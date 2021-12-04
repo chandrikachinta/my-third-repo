@@ -16,7 +16,7 @@ pipeline {
          steps {
             sh 'chmod +x ./gradlew'
             sh './gradlew clean test'
-         }
+test repo         }
       }
 	stage('archive') {
          steps {
